@@ -19,8 +19,8 @@ Real-time distance feedback is provided on a 16x2 I2C LCD for user awareness.
 - HC-05 Bluetooth Module (Wireless communication)  
 - MIT App Inventor Android App (Manual control interface)  
 
-              ### System Architecture / Circuit Diagram
-              ![Circuit Diagram](Docs/circuit.png)
+  ### System Architecture / Circuit Diagram
+             
 
 
 ---
@@ -31,8 +31,8 @@ Real-time distance feedback is provided on a 16x2 I2C LCD for user awareness.
    - `'1'` → Open door  
    - `'0'` → Close door  
 3. **LCD Display** → Shows real-time distance from ultrasonic sensor.  
-          ### Arduino Hardware Setup
-          ![Hardware Setup](Docs/hardware.png)
+   ### Arduino Hardware Setup
+         
 
 ---
 
@@ -43,8 +43,8 @@ Real-time distance feedback is provided on a 16x2 I2C LCD for user awareness.
   - **OFF** → Sends `'0'`.  
 - Uses `BluetoothClient` component for connection.  
 - Real-time control, no coding required, beginner-friendly.  
-          ### MIT App Inventor Mobile App
-          ![App Screenshot](Docs/app.png)
+  ### MIT App Inventor Mobile App
+          
 
 *(You can upload `.apk` and `.aia` files into a `/MobileApp/` folder in this repo for others to try your app.)*  
 
